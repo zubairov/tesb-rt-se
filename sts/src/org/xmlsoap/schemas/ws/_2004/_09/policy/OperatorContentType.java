@@ -49,10 +49,10 @@ import org.w3c.dom.Element;
 public class OperatorContentType {
 
     @XmlElementRefs({
-        @XmlElementRef(name = "Policy", namespace = "http://schemas.xmlsoap.org/ws/2004/09/policy", type = Policy.class),
-        @XmlElementRef(name = "All", namespace = "http://schemas.xmlsoap.org/ws/2004/09/policy", type = JAXBElement.class),
-        @XmlElementRef(name = "ExactlyOne", namespace = "http://schemas.xmlsoap.org/ws/2004/09/policy", type = JAXBElement.class),
-        @XmlElementRef(name = "PolicyReference", namespace = "http://schemas.xmlsoap.org/ws/2004/09/policy", type = PolicyReference.class)
+        @XmlElementRef(name = "All", namespace = "http://schemas.xmlsoap.org/ws/2004/09/policy", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "PolicyReference", namespace = "http://schemas.xmlsoap.org/ws/2004/09/policy", type = PolicyReference.class, required = false),
+        @XmlElementRef(name = "ExactlyOne", namespace = "http://schemas.xmlsoap.org/ws/2004/09/policy", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "Policy", namespace = "http://schemas.xmlsoap.org/ws/2004/09/policy", type = Policy.class, required = false)
     })
     @XmlAnyElement(lax = true)
     protected List<Object> policyOrAllOrExactlyOne;
@@ -75,12 +75,12 @@ public class OperatorContentType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
+     * {@link JAXBElement }{@code <}{@link OperatorContentType }{@code >}
      * {@link Policy }
-     * {@link Element }
-     * {@link JAXBElement }{@code <}{@link OperatorContentType }{@code >}
-     * {@link Object }
-     * {@link JAXBElement }{@code <}{@link OperatorContentType }{@code >}
      * {@link PolicyReference }
+     * {@link JAXBElement }{@code <}{@link OperatorContentType }{@code >}
+     * {@link Element }
+     * {@link Object }
      * 
      * 
      */

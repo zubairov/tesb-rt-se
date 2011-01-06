@@ -33,12 +33,12 @@ public class ObjectFactory {
     private final static QName _RequestType_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "RequestType");
     private final static QName _BinaryExchange_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "BinaryExchange");
     private final static QName _CancelTarget_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "CancelTarget");
-    private final static QName _KeyWrapAlgorithm_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "KeyWrapAlgorithm");
-    private final static QName _KeyType_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "KeyType");
     private final static QName _Participants_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "Participants");
+    private final static QName _KeyType_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "KeyType");
+    private final static QName _KeyWrapAlgorithm_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "KeyWrapAlgorithm");
     private final static QName _Renewing_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "Renewing");
-    private final static QName _ProofEncryption_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "ProofEncryption");
     private final static QName _Entropy_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "Entropy");
+    private final static QName _ProofEncryption_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "ProofEncryption");
     private final static QName _AuthenticationType_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "AuthenticationType");
     private final static QName _ComputedKeyAlgorithm_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "ComputedKeyAlgorithm");
     private final static QName _EncryptionAlgorithm_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "EncryptionAlgorithm");
@@ -52,16 +52,16 @@ public class ObjectFactory {
     private final static QName _Claims_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "Claims");
     private final static QName _SignatureAlgorithm_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "SignatureAlgorithm");
     private final static QName _RequestedTokenCancelled_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "RequestedTokenCancelled");
-    private final static QName _RenewTarget_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "RenewTarget");
     private final static QName _SignWith_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "SignWith");
+    private final static QName _RenewTarget_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "RenewTarget");
     private final static QName _RequestedAttachedReference_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "RequestedAttachedReference");
     private final static QName _Delegatable_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "Delegatable");
     private final static QName _Forwardable_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "Forwardable");
     private final static QName _ComputedKey_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "ComputedKey");
     private final static QName _RequestedProofToken_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "RequestedProofToken");
     private final static QName _KeyExchangeToken_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "KeyExchangeToken");
-    private final static QName _BinarySecret_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "BinarySecret");
     private final static QName _EncryptWith_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "EncryptWith");
+    private final static QName _BinarySecret_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "BinarySecret");
     private final static QName _UseKey_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "UseKey");
     private final static QName _DelegateTo_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "DelegateTo");
     private final static QName _Encryption_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "Encryption");
@@ -72,8 +72,8 @@ public class ObjectFactory {
     private final static QName _RequestSecurityToken_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "RequestSecurityToken");
     private final static QName _IssuedTokens_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "IssuedTokens");
     private final static QName _SignChallenge_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "SignChallenge");
-    private final static QName _RequestedSecurityToken_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "RequestedSecurityToken");
     private final static QName _RequestSecurityTokenResponse_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "RequestSecurityTokenResponse");
+    private final static QName _RequestedSecurityToken_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "RequestedSecurityToken");
     private final static QName _RequestSecurityTokenResponseCollection_QNAME = new QName("http://docs.oasis-open.org/ws-sx/ws-trust/200512/", "RequestSecurityTokenResponseCollection");
 
     /**
@@ -396,12 +396,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ParticipantsType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "KeyWrapAlgorithm")
-    public JAXBElement<String> createKeyWrapAlgorithm(String value) {
-        return new JAXBElement<String>(_KeyWrapAlgorithm_QNAME, String.class, null, value);
+    @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "Participants")
+    public JAXBElement<ParticipantsType> createParticipants(ParticipantsType value) {
+        return new JAXBElement<ParticipantsType>(_Participants_QNAME, ParticipantsType.class, null, value);
     }
 
     /**
@@ -414,12 +414,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ParticipantsType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "Participants")
-    public JAXBElement<ParticipantsType> createParticipants(ParticipantsType value) {
-        return new JAXBElement<ParticipantsType>(_Participants_QNAME, ParticipantsType.class, null, value);
+    @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "KeyWrapAlgorithm")
+    public JAXBElement<String> createKeyWrapAlgorithm(String value) {
+        return new JAXBElement<String>(_KeyWrapAlgorithm_QNAME, String.class, null, value);
     }
 
     /**
@@ -432,21 +432,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ProofEncryptionType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "ProofEncryption")
-    public JAXBElement<ProofEncryptionType> createProofEncryption(ProofEncryptionType value) {
-        return new JAXBElement<ProofEncryptionType>(_ProofEncryption_QNAME, ProofEncryptionType.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link EntropyType }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "Entropy")
     public JAXBElement<EntropyType> createEntropy(EntropyType value) {
         return new JAXBElement<EntropyType>(_Entropy_QNAME, EntropyType.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ProofEncryptionType }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "ProofEncryption")
+    public JAXBElement<ProofEncryptionType> createProofEncryption(ProofEncryptionType value) {
+        return new JAXBElement<ProofEncryptionType>(_ProofEncryption_QNAME, ProofEncryptionType.class, null, value);
     }
 
     /**
@@ -567,21 +567,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link RenewTargetType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "RenewTarget")
-    public JAXBElement<RenewTargetType> createRenewTarget(RenewTargetType value) {
-        return new JAXBElement<RenewTargetType>(_RenewTarget_QNAME, RenewTargetType.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "SignWith")
     public JAXBElement<String> createSignWith(String value) {
         return new JAXBElement<String>(_SignWith_QNAME, String.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link RenewTargetType }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "RenewTarget")
+    public JAXBElement<RenewTargetType> createRenewTarget(RenewTargetType value) {
+        return new JAXBElement<RenewTargetType>(_RenewTarget_QNAME, RenewTargetType.class, null, value);
     }
 
     /**
@@ -639,21 +639,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link BinarySecretType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "BinarySecret")
-    public JAXBElement<BinarySecretType> createBinarySecret(BinarySecretType value) {
-        return new JAXBElement<BinarySecretType>(_BinarySecret_QNAME, BinarySecretType.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "EncryptWith")
     public JAXBElement<String> createEncryptWith(String value) {
         return new JAXBElement<String>(_EncryptWith_QNAME, String.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link BinarySecretType }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "BinarySecret")
+    public JAXBElement<BinarySecretType> createBinarySecret(BinarySecretType value) {
+        return new JAXBElement<BinarySecretType>(_BinarySecret_QNAME, BinarySecretType.class, null, value);
     }
 
     /**
@@ -747,21 +747,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link RequestedSecurityTokenType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "RequestedSecurityToken")
-    public JAXBElement<RequestedSecurityTokenType> createRequestedSecurityToken(RequestedSecurityTokenType value) {
-        return new JAXBElement<RequestedSecurityTokenType>(_RequestedSecurityToken_QNAME, RequestedSecurityTokenType.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link RequestSecurityTokenResponseType }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "RequestSecurityTokenResponse")
     public JAXBElement<RequestSecurityTokenResponseType> createRequestSecurityTokenResponse(RequestSecurityTokenResponseType value) {
         return new JAXBElement<RequestSecurityTokenResponseType>(_RequestSecurityTokenResponse_QNAME, RequestSecurityTokenResponseType.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link RequestedSecurityTokenType }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://docs.oasis-open.org/ws-sx/ws-trust/200512/", name = "RequestedSecurityToken")
+    public JAXBElement<RequestedSecurityTokenType> createRequestedSecurityToken(RequestedSecurityTokenType value) {
+        return new JAXBElement<RequestedSecurityTokenType>(_RequestedSecurityToken_QNAME, RequestedSecurityTokenType.class, null, value);
     }
 
     /**
