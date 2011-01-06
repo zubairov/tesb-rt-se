@@ -1,4 +1,6 @@
 Welcome to Talend ESB SE!
 =====================================
 
-TODO: add description
+Talend ESB SE includes: Service Factory + Integration Factory + AMQ,
+Camel 3rd party libraries, Service Locator, STS
+Tutorials, Documentation
