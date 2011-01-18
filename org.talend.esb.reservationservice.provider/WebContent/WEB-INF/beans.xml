@@ -15,6 +15,6 @@ http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
       
 <jaxws:endpoint id="ReservationService"
     implementor="#ReservationServiceBean"
-    address="/ReservationService" >
+    address="/ReservationService" />
        
  </beans>
