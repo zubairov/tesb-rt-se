@@ -3,13 +3,13 @@
     <groupId>org.talend.esb</groupId>
     <artifactId>locator-sample</artifactId>
     <name>Sample provider using the locator</name>
-    <version>4.0</version>
+    <version>4.1</version>
     <packaging>jar</packaging>
 
     <parent>
         <groupId>org.talend.esb</groupId>
         <artifactId>esb-parent</artifactId>
-        <version>4.0</version>
+        <version>4.1</version>
     </parent>
 
 
