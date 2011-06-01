@@ -32,8 +32,8 @@ public class SLEndpointImpl implements SLEndpoint{
             EndpointDataType endpointData = toEndPointData(content);
             lastTimeStarted = Long.decode(endpointData.getLastTimeStarted());
             Element eprRoot = (Element) endpointData.getAny();
-            EndpointReferenceType epr =  toEndPointReference(eprRoot);
-            address = epr.getAddress().getValue();
+            //EndpointReferenceType epr =  toEndPointReference(eprRoot);
+            address = "address";//epr.getAddress().getValue();
         } else {
             throw new IllegalArgumentException("content must not be null.");
         }
